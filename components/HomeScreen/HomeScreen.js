@@ -75,13 +75,8 @@ export default function HomeScreen() {
                 place shortly, then where it is situated and how long it takes
                 to reach that place from Yerevan.
               </Text>
-              <Text style={styles.harcer}>
-                {" "}Do you organise some mini trips?
-              </Text>
-              <Text style={styles.patasxan}>
-                Yes, we do. We have severel services. For more you can go to
-                --..
-              </Text>
+              <Text style={styles.harcer}> Are we the first to make such an app?</Text>
+            <Text style={styles.patasxan}>Yes, we are. We are here to make tourists' life easier.</Text>
               <Text style={styles.harcer}>Why is this app for?</Text>
               <Text style={styles.patasxan}>
                 In the latest years Armenia has became the most favourite

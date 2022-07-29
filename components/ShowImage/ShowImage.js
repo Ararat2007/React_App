@@ -1,4 +1,5 @@
 import React from "react";
+import 'react-native-gesture-handler';
 import { View, Dimensions, ImageBackground } from "react-native";
 
 let deviceHeight = Dimensions.get("window").height;

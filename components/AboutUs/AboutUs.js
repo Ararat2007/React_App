@@ -54,11 +54,11 @@ export default function AboutUs() {
             </View>
             <View style={styles1.textView}>
               <Text>
-                I'm Ararat MArkosyan, one of the creators of this app. I am 15
+                I'm Ararat Markosyan, one of the creators of this app. I am 15
                 years old. I am interested in programming and website
-                development.I have been going to Tumo for 3 years. Tumo has
+                development.I have been going to TUMO for 3 years. TUMO has
                 become my second home and besides studying here I have made many
-                friends․ Participating in this workshop gave me the opportunity
+                friends․ Participation in this workshop gave me the opportunity
                 to meet new people and gain many skills.
               </Text>
             </View>
@@ -71,8 +71,8 @@ export default function AboutUs() {
                 which gives me a very good experience, friends and so on. I am
                 always energetic and eager to learn new skills. I am always
                 highly enthused about my work and tasks ahead. Really enjoyed
-                making such a good app with my team, which is a very needed app
-                in my country for none-natives
+                making such a good app with our team, which is a very needed app
+                in my country for none-natives.
               </Text>
             </View>
 
@@ -86,13 +86,11 @@ export default function AboutUs() {
             </View>
             <View style={styles1.textView}>
               <Text>
-                I'm Meri Muradyan, one of the creators of this app. I'm
-                interested in programming, graphic design. I'm attending TUMO,
-                which gives me a very good experience, friends and so on. I am
-                always energetic and eager to learn new skills. I am always
-                highly enthused about my work and tasks ahead. Really enjoyed
-                making such a good app with my team, which is a very needed app
-                in my country for none-natives
+               I'm Gor Nikoghosyan, 14 years old, one of the creators of this app.
+               I'minterested in programming and in game development.
+               I have been attending TUMO when I was only 12.
+               In my spare time I really enjoy playing computer games and learning programming languages on youtube. 
+               I am happy that this app that we have created with our team will be very helpful for our tourists.
               </Text>
             </View>
           </View>

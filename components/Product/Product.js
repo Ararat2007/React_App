@@ -21,10 +21,12 @@ function product({ name, desc, image, place }) {
       marginBottom: 15,
     },
     container: {
-      marginLeft: "auto",
-      marginRight: "auto",
+      marginLeft: 10,
+      marginRight: 10,
       marginTop: 10,
       marginBottom: "auto",
+      borderWidth: 1,
+      borderColor: "#47700A"
     },
     container1: {
       justifyContent: "center",
@@ -71,8 +73,8 @@ function product({ name, desc, image, place }) {
           <View style={styles.container1}>
             {!shouldShow
               ? <Text style={styles.desc}>
-                  {desc}
-                </Text>
+                {desc}
+              </Text>
               : null}
             <Button
               title="Description"

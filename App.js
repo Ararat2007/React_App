@@ -1,15 +1,17 @@
-import { NavigationContainer } from "@react-navigation/native";
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import 'react-native-gesture-handler';
 import HomeScreen from "./components/HomeScreen/HomeScreen";
 import Sights from "./components/Sights/Sights";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Gallery from "./components/Gallery/Gallery";
 import ShowImage from "./components/ShowImage/ShowImage";
+import { NavigationContainer } from "@react-navigation/native";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Feather } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
 import { AntDesign } from "@expo/vector-icons";
 import { createStackNavigator } from "@react-navigation/stack";
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 const Tab = createBottomTabNavigator();
 const GalleryStack = createStackNavigator();
 function GalleryStackScreen() {
